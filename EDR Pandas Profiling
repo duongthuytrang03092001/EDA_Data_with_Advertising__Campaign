@@ -1,0 +1,8 @@
+# Python code
+
+import pandas as pd
+from pandas_profiling  import ydata_profiling
+df=pd.read_csv('olist_orders_dataset.csv')
+df.head()
+report = ProfileReport(df)
+report 

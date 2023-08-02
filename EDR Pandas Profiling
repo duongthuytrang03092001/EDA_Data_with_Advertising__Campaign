@@ -6,3 +6,10 @@ df=pd.read_csv('olist_orders_dataset.csv')
 df.head()
 report = ProfileReport(df)
 report 
+
+# Exploratory Data Analysis
++ Are there any null values or outliers? 
++ How will you wrangle/handle them?
++ Are there any variables that warrant transformations?
++ Are there any useful variables that you can engineer with the given data?
++ Do you notice any patterns or anomalies in the data? Can you plot them?
